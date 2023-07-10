@@ -19,7 +19,7 @@
 
 .container h2 {
     color: blue;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .container h2 a {
@@ -33,9 +33,13 @@
     border-radius: 3px;
 }
 
+.container h1 {
+    font-size: 27px;
+}
+
 .container p:first-of-type {
     font-size: 15px;
-    margin: 15px 0;
+    margin: 5px 0;
 }
 
 .container input {
@@ -78,7 +82,7 @@
     }
     
     .container p:first-of-type {
-        margin-top: 20px;
+        margin-top: 10px;
         line-height: 20px;
     }
 }
