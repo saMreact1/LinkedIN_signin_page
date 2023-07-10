@@ -35,7 +35,7 @@
 
 .container p:first-of-type {
     font-size: 15px;
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 
 .container input {
@@ -54,6 +54,11 @@
     font-weight:bold;
 }
 
+.container p:nth-of-type(2),
+.container p:nth-of-type(3) {
+    text-align: center;
+}
+
 .container button {
     padding: 10px;
     width: 100%;
@@ -70,5 +75,10 @@
 @media only screen and (max-width: 425px) {
     .container {
     width: 80%;
-}
+    }
+    
+    .container p:first-of-type {
+        margin-top: 20px;
+        line-height: 20px;
+    }
 }
